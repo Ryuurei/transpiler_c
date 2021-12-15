@@ -10,4 +10,5 @@ python3 transpile_simple_model.py
 ```
 To build the models, generate the joblib files and generate the C file.
 
-In the `utils.py`, precise in the `train_and_joblib` functions, specify your datasets and when calling function `generate_predict_in_c` precise the type of your model to generate your .c file.
+In the `utils.py`, specify in the `train_and_joblib` functions the paths to your datasets.
+When calling function `generate_predict_in_c` precise the type of your model to generate your .c file.
