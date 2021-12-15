@@ -3,10 +3,18 @@ By Benoit PHAM
 
 Transpiler from a linear/logistic regression into a C file.
 
-How to use:
+# Install dependencies with 
+```
+pip install -r requirements.txt
+```
+or
+```
+conda create --name <env> --file requirements.txt
+```
+
+# How to use:
 ```
 python3 transpile_simple_model.py
-
 ```
 To build the models, generate the joblib files and generate the C file.
 
